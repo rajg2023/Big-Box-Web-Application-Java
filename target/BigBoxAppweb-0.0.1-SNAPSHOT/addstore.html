@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Store Page</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<ol>
+		<li><a class="active" href="index.html">Log In</a></li>
+		<li><a class="active" href="index.html">Log Out</a></li>
+		<li><a class="active" href="home.html">Home</a></li>
+		<li><a class="active" href="application.html">BigBoxApp</a></li>
+		<li style="float: right"><a href="contact.html">Contact Me</a></li>
+	</ol>
+	<form name="AddStoreServlet" method="GET" action="addstore">
+		<input type="hidden" name="action" value="add">
+		<center>
+			<h1>
+				<b><u>Welcome to the Big Box Web Application</u>
+			</h1>
+			<h2>Add Store</h2>
+			<frame style="height: 61px;">
+			<table>
+				<tr>
+					<td>Division#:</td>
+					<td><input type="number" name="divisionnumber" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Store#:</td>
+					<td><input type="number" name="storenumber" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Name:</td>
+					<td><input type="text" name="name" required></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td><input type="text" name="address" required></td>
+				</tr>
+				<tr>
+					<td>City:</td>
+					<td><input type="text" name="city" required></td>
+				</tr>
+				<tr>
+					<td>State:</td>
+					<td><input type="text" name="state" required></td>
+				</tr>
+				<tr>
+					<td>ZipCode:</td>
+					<td><input type="text" name="zipCode" required></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit" value="addstore">Submit</button> <input
+						type="reset" value="Reset">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+					<input action="action" onclick="history.go(-1);" type="button" value="Back"/>
+					</td>
+				</tr>
+			</table>
+	</form>
+	</center>
+	<footer>
+		<marquee>Copyright &copy; 2017 R@jiv Giri</marquee>
+	</footer>
+</body>
+</html>
