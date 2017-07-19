@@ -1,5 +1,5 @@
 # BigBoxWebApplication
-<p> This project is the 6.0 version or iteration of BigBox Application version 5.0. This is a Dynamic Web application project that uses Maven to build and is deployed to Heroku.
+<p> This project is the 6.0 version or iteration of BigBox Application version 5.0. This is a Dynamic Web application project that uses Maven to build and deploy to Heroku.
 It consists of servlet, jsps and html pages which creates home page, BigBox application page where user can view list of stores, divisions,users,registration and login page.
   This application consists of User, Division, Store and Store Sales classes stored into their respective packages.It implements the DAO Factory Pattern and stores and gets the data from MYSQL Database. It also includes PLSQL connector and other Jar files and 
  SQL Script in bigbox.SQL package.</p>
