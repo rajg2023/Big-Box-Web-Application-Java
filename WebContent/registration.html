@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Registration Page</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<ol>
+		<li><a class="active" href="index.html">Login Page</a></li>
+		<li style="float: right"><a href="contact.html">Contact Me</a></li>
+	</ol>
+	<form name="registration" method="post" action="registration">
+		<center>
+			<h1>
+				<b><u>Welcome to the Big Box Web Application</u></b>
+			</h1>
+			<h2>New User Registration</h2>
+			<frame style="height: 61px;">
+			<table>
+				<tr>
+					<td>User Name:</td>
+					<td><input type="text" name="username" required></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="password" required></td>
+				</tr>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" name="firstname" required></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" name="lastname" required></td>
+				</tr>
+				<tr>
+					<td>Phone#:</td>
+					<td><input type="number" name="phone" required maxlength="10">
+					</td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" name="email" required></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit" value="registration">Submit</button> <input
+						type="reset" value="Reset">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+					<input action="action" onclick="history.go(-1);" type="button" value="Back"/>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</form>
+	<footer>
+		<marquee>Copyright &copy; 2017 R@jiv Giri</marquee>
+	</footer>
+</body>
+</html>

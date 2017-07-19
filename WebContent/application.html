@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>Big Box App</title>
+</head>
+<body>
+		<ol>
+			<li><a class="active" href="index.html">Log In</a></li>
+		    <li><a class="active" href="index.html">Log Out</a></li>
+			<li><a class="active" href="home.html">Home</a></li>
+			<li><a class="active" href="application.html">BigBoxApp</a></li>
+			<li style="float: right"><a href="contact.html">Contact Me</a></li>
+		</ol>
+		<center>
+		<h1>
+			<b><u>Welcome to the Big Box Web Application</u></b>
+		</h1>
+		</center>
+	<div style="width: 1250px; padding-top: 10px; padding-right:10px; padding-left:20px;  background-color:white;">
+	<div style="background-color: orange; float:right">
+		<form name="StoreServlet" method="GET" action="stores" >
+			<h1>You will see the list of stores here</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	<div style="background-color: #ff00ff; float:right;">
+		<form name="DivisionServlet" method="GET" action="divisions">
+			<h1>You will see the list of divisions here</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+
+	<div style="background-color: #003333; float:right;">
+		<form name="StoreSaleServlet" method="GET" action="storesales">
+			<h1>You will see the list of Store Sales here</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	<div style="background-color: #00ffff; float:right;">
+		<form name="UserServlet" method="GET" action="users">
+			<h1>You will see the list of users here</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	<div style="background-color: yellow; float:right;">
+		<form name="AddStoreServlet" method="GET" action="addstore.html">
+			<input type="hidden" name="action" value="list">
+			<h1>You will be prompted to add store here.</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	<div style="background-color: red; float:right;">
+		<form name="DeleteServlet" method="GET" action="deletestore.html">
+			<h1>You will be prompted to delete store here.</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	<div style="background-color: blue; float:right;">
+		<form name="LoginServlet" method="GET" action="index.html">
+			<h1>You will be prompted to login page</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	<div style="background-color: green; float:right;">
+		<form name="RegistrationServlet" method="GET"
+			action="registration.html">
+			<h1>You will be prompted to registration page</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	<div style="background-color: purple; float:right;">
+		<form name="ContactServlet" method="GET" action="contact.html">
+			<h1>You will be prompted to contact me page</h1>
+			<button type="submit">Click Here</button>
+		</form>
+	</div>
+	</div>
+	<footer>
+		<marquee>Copyright &copy; 2017 R@jiv Giri</marquee>
+	</footer>
+	
+</body>
+</html>

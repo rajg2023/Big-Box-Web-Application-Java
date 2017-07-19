@@ -1,0 +1,64 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<ol>
+		<li><a class="active" href="index.html">Login Page</a></li>
+		<li style="float: right"><a href="#Contact Me">Contact Me</a></li>
+	</ol>
+	<form name="ContactServlet" method="GET" action="contact">
+		<input type="hidden" name="action" value="add">
+		<center>
+			<h1>
+				<b><u>Welcome to the Big Box Web Application</u>
+			</h1>
+			<h2>Contact Me Form</h2>
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" name="firstName" required></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" name="lastName" required></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" name="email" required></td>
+				</tr>
+				<tr>
+					<td>Phone#:</td>
+					<td><input type="number" name="phone" required></td>
+				</tr>
+				<tr>
+					<td>Comments:</td>
+					<td><textarea name="comments" rows=5 cols=30 wrap="soft" required></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit" value="addstore">Submit</button> <input
+						type="reset" value="Reset">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+					<input action="action" onclick="history.go(-1);" type="button" value="Back"/>
+					</td>
+				</tr>
+			</table>
+	</form>
+	</section>
+	<footer>
+		<marquee>Copyright &copy; 2017 R@jiv Giri</marquee>
+	</footer>
+</body>
+</html>
